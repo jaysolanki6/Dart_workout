@@ -1,5 +1,3 @@
-import 'dart:math';
-
 void main()
 {
   double product1 = 500.00;
