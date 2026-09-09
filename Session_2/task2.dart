@@ -2,12 +2,15 @@ bool checkDiscountEligibility(double amount) {
   return amount >= 500;
 }
 
-void main() {
+void main()
+{
   var amount = 650.50;
 
-  if (checkDiscountEligibility(amount)) {
+  if (checkDiscountEligibility(amount))
+  
     print("You are eligible for a discount!");
-  } else {
+  else
+  {
     print("No discount available.");
   }
 }
